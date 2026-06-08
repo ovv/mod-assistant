@@ -21,20 +21,20 @@ INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`,
 (@Entry, 0, @Model, 1, 1);
 
 DELETE FROM `creature` WHERE `id1`=@Entry;
--- Reserved guid band for this module (60010000-60019999): high enough never to
+-- Reserved guid band for this module (10010000-10019999): high enough never to
 -- collide with core content, spaced 10k from other modules' bands.
-DELETE FROM `creature` WHERE `guid` BETWEEN 60010000 AND 60010009;
+DELETE FROM `creature` WHERE `guid` BETWEEN 10010000 AND 10010009;
 INSERT INTO `creature` (`guid`, `id1`, `map`, `position_x`, `position_y`, `position_z`, `orientation`) VALUES
-(60010000, @Entry, 0, -8824.65, 649.467, 94.5585, 4.47955), -- Stormwind City
-(60010001, @Entry, 0, -4956.91, -932.369, 501.66, 4.77523), -- City of Ironforge
-(60010002, @Entry, 0, 1590.66, 272.521, -55.3428, 0.361283), -- Undercity
-(60010003, @Entry, 1, 9929.71, 2507.59, 1318.17, 4.78701), -- Darnassus
-(60010004, @Entry, 1, 1619.08, -4443.65, 10.869, 1.73804), -- Orgrimmar
-(60010005, @Entry, 1, -1292.12, 116.913, 131.175, 5.78446), -- Thunder Bluff
-(60010006, @Entry, 530, -3955.07, -11670, -138.757, 3.29082), -- The Exodar
-(60010007, @Entry, 530, 9469.83, -7294.44, 14.3078, 0.105431), -- Silvermoon City
-(60010008, @Entry, 530, -1814.49, 5425.97, -12.4281, 2.87456), -- Shattrath City
-(60010009, @Entry, 571, 5791.71, 560.464, 650.657, 1.79314); -- Dalaran
+(10010000, @Entry, 0, -8824.65, 649.467, 94.5585, 4.47955), -- Stormwind City
+(10010001, @Entry, 0, -4956.91, -932.369, 501.66, 4.77523), -- City of Ironforge
+(10010002, @Entry, 0, 1590.66, 272.521, -55.3428, 0.361283), -- Undercity
+(10010003, @Entry, 1, 9929.71, 2507.59, 1318.17, 4.78701), -- Darnassus
+(10010004, @Entry, 1, 1619.08, -4443.65, 10.869, 1.73804), -- Orgrimmar
+(10010005, @Entry, 1, -1292.12, 116.913, 131.175, 5.78446), -- Thunder Bluff
+(10010006, @Entry, 530, -3955.07, -11670, -138.757, 3.29082), -- The Exodar
+(10010007, @Entry, 530, 9469.83, -7294.44, 14.3078, 0.105431), -- Silvermoon City
+(10010008, @Entry, 530, -1814.49, 5425.97, -12.4281, 2.87456), -- Shattrath City
+(10010009, @Entry, 571, 5791.71, 560.464, 650.657, 1.79314); -- Dalaran
 
 /*
 -- Major Glyphs
