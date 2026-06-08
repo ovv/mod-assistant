@@ -508,6 +508,8 @@ INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
 (@Entry+22, 43674), -- Glyph of Dash
 (@Entry+22, 44922), -- Glyph of Typhoon
 -- Gem: Meta
+(@Entry+23, 49110), -- Nightmare Tear
+(@Entry+23, 42702), -- Enchanted Tear
 (@Entry+23, 41285), -- Chaotic Skyflare Diamond
 (@Entry+23, 41307), -- Destructive Skyflare Diamond
 (@Entry+23, 41333), -- Ember Skyflare Diamond
@@ -1028,6 +1030,20 @@ INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
 (@Entry+44, 44455), -- Scroll of Enchant Shield - Greater Intellect
 -- Container
 (@Entry+45, 1729), -- Gunnysack of the Night Watch
-(@Entry+45, 3604), -- Bandolier of the Night Watch
+(@Entry+45, 14046), -- Runecloth Bag
+(@Entry+45, 21841), -- Netherweave Bag
+(@Entry+45, 41599), -- Frostweave Bag
+(@Entry+45, 41600), -- Glacial Bag
+(@Entry+45, 22243), -- Small Soul Pouch
+(@Entry+45, 21341), -- Felcloth Bag
+(@Entry+45, 21872), -- Ebon Shadowbag
+(@Entry+45, 41597), -- Abyssal Bag
 (@Entry+45, 3605), -- Quiver of the Night Watch
-(@Entry+45, 22243); -- Small Soul Pouch
+(@Entry+45, 34100), -- Knothide Quiver
+(@Entry+45, 34105), -- Quiver of a Thousand Feathers
+(@Entry+45, 44448), -- Nerubian Reinforced Quiver
+(@Entry+45, 3604), -- Bandolier of the Night Watch
+(@Entry+45, 34099), -- Knothide Ammo Pouch
+(@Entry+45, 34106), -- Netherscale Ammo Pouch
+(@Entry+45, 44447); -- Dragonscale Ammo Pouch
+
